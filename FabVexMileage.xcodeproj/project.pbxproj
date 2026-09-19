@@ -1,0 +1,55 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  111111111111111111111111 = {isa = PBXProject; attributes = {LastUpgradeCheck = 1600;}; buildConfigurationList = 222222222222222222222222; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, Base); mainGroup = 333333333333333333333333; productRefGroup = 444444444444444444444444; projectDirPath = ""; projectRoot = ""; targets = (555555555555555555555555, 666666666666666666666666);};
+  222222222222222222222222 = {isa = XCConfigurationList; buildConfigurations = (777777777777777777777777, 888888888888888888888888); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  333333333333333333333333 = {isa = PBXGroup; children = (999999999999999999999999, AAAAAAAABBBBBBBBCCCCCCCC); sourceTree = "<group>";};
+  444444444444444444444444 = {isa = PBXGroup; children = (BBBBBBBBBBBBBBBBBBBBBBBB, CCCCCCCCCCCCCCCCCCCCCCCC); name = Products; sourceTree = "<group>";};
+  999999999999999999999999 = {isa = PBXGroup; children = (100000000000000000000001,100000000000000000000002,100000000000000000000003,100000000000000000000004,100000000000000000000005,100000000000000000000006,100000000000000000000007,100000000000000000000008,100000000000000000000009,100000000000000000000010); path = FabVexMileage; sourceTree = "<group>";};
+  AAAAAAAABBBBBBBBCCCCCCCC = {isa = PBXGroup; children = (100000000000000000000011); path = FabVexMileageWidget; sourceTree = "<group>";};
+  100000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabVexMileageApp.swift; sourceTree = "<group>";};
+  100000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>";};
+  100000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileageEngine.swift; sourceTree = "<group>";};
+  100000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>";};
+  100000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>";};
+  100000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>";};
+  100000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportExporter.swift; sourceTree = "<group>";};
+  100000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>";};
+  100000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FabVexMileage.entitlements; sourceTree = "<group>";};
+  100000000000000000000010 = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ../Config.xcconfig; sourceTree = "<group>";};
+  100000000000000000000011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabVexMileageWidget.swift; sourceTree = "<group>";};
+  BBBBBBBBBBBBBBBBBBBBBBBB = {isa = PBXFileReference; explicitFileType = wrapper.application; path = FabVexMileage.app; sourceTree = BUILT_PRODUCTS_DIR;};
+  CCCCCCCCCCCCCCCCCCCCCCCC = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; path = FabVexMileageWidget.appex; sourceTree = BUILT_PRODUCTS_DIR;};
+  555555555555555555555555 = {isa = PBXNativeTarget; buildConfigurationList = DDDDDDDDDDDDDDDDDDDDDDDD; buildPhases = (454545454545454545454545, FFFFFFFFFFFFFFFFFFFFFFFF, 121212121212121212121212, 565656565656565656565656); dependencies = (); name = FabVexMileage; productName = FabVexMileage; productReference = BBBBBBBBBBBBBBBBBBBBBBBB; productType = "com.apple.product-type.application";};
+  666666666666666666666666 = {isa = PBXNativeTarget; buildConfigurationList = F1F1F1F1F1F1F1F1F1F1F1F1; buildPhases = (232323232323232323232323, 242424242424242424242424, 252525252525252525252525); dependencies = (); name = FabVexMileageWidget; productName = FabVexMileageWidget; productReference = CCCCCCCCCCCCCCCCCCCCCCCC; productType = "com.apple.product-type.app-extension";};
+  EEEEEEEEEEEEEEEEEEEEEEEE = {isa = XCConfigurationList; buildConfigurations = (262626262626262626262626, 272727272727272727272727); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  DDDDDDDDDDDDDDDDDDDDDDDD = {isa = XCConfigurationList; buildConfigurations = (282828282828282828282828, 292929292929292929292929); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  F1F1F1F1F1F1F1F1F1F1F1F1 = {isa = XCConfigurationList; buildConfigurations = (262626262626262626262626, 272727272727272727272727); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  454545454545454545454545 = {isa = PBXSourcesBuildPhase; files = (313131313131313131313131,323232323232323232323232,393939393939393939393939,343434343434343434343434,353535353535353535353535,363636363636363636363636,373737373737373737373737);};
+  FFFFFFFFFFFFFFFFFFFFFFFF = {isa = PBXFrameworksBuildPhase; files = ();};
+  121212121212121212121212 = {isa = PBXResourcesBuildPhase; files = ();};
+  565656565656565656565656 = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = "$(CONTENTS_FOLDER_PATH)/PlugIns"; dstSubfolderSpec = 13; files = (575757575757575757575757); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0;};
+  575757575757575757575757 = {isa = PBXBuildFile; fileRef = CCCCCCCCCCCCCCCCCCCCCCCC; settings = {ATTRIBUTES = (RemoveHeadersOnCopy,);};};
+  232323232323232323232323 = {isa = PBXSourcesBuildPhase; files = (383838383838383838383838);};
+  242424242424242424242424 = {isa = PBXFrameworksBuildPhase; files = ();};
+  252525252525252525252525 = {isa = PBXResourcesBuildPhase; files = ();};
+  313131313131313131313131 = {isa = PBXBuildFile; fileRef = 100000000000000000000001;};
+  323232323232323232323232 = {isa = PBXBuildFile; fileRef = 100000000000000000000002;};
+  393939393939393939393939 = {isa = PBXBuildFile; fileRef = 100000000000000000000003;};
+  343434343434343434343434 = {isa = PBXBuildFile; fileRef = 100000000000000000000004;};
+  353535353535353535353535 = {isa = PBXBuildFile; fileRef = 100000000000000000000005;};
+  363636363636363636363636 = {isa = PBXBuildFile; fileRef = 100000000000000000000006;};
+  373737373737373737373737 = {isa = PBXBuildFile; fileRef = 100000000000000000000007;};
+  383838383838383838383838 = {isa = PBXBuildFile; fileRef = 100000000000000000000011;};
+  777777777777777777777777 = {isa = XCBuildConfiguration; buildSettings = {SWIFT_VERSION = 5.0;}; name = Debug;};
+  888888888888888888888888 = {isa = XCBuildConfiguration; buildSettings = {SWIFT_VERSION = 5.0;}; name = Release;};
+  282828282828282828282828 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_BUNDLE_IDENTIFIER = com.fabvex.mileage; PRODUCT_NAME = "FabVex Mileage"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 18.0; INFOPLIST_FILE = FabVexMileage/Info.plist; CODE_SIGN_ENTITLEMENTS = FabVexMileage/FabVexMileage.entitlements; TARGETED_DEVICE_FAMILY = 1;}; name = Debug;};
+  292929292929292929292929 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_BUNDLE_IDENTIFIER = com.fabvex.mileage; PRODUCT_NAME = "FabVex Mileage"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 18.0; INFOPLIST_FILE = FabVexMileage/Info.plist; CODE_SIGN_ENTITLEMENTS = FabVexMileage/FabVexMileage.entitlements; TARGETED_DEVICE_FAMILY = 1;}; name = Release;};
+  262626262626262626262626 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_BUNDLE_IDENTIFIER = com.fabvex.mileage.widget; PRODUCT_NAME = "FabVex Mileage Widget"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 18.0; INFOPLIST_FILE = FabVexMileageWidget/Info.plist; CODE_SIGN_ENTITLEMENTS = FabVexMileageWidget/FabVexMileageWidget.entitlements; TARGETED_DEVICE_FAMILY = 1;}; name = Debug;};
+  272727272727272727272727 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_BUNDLE_IDENTIFIER = com.fabvex.mileage.widget; PRODUCT_NAME = "FabVex Mileage Widget"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 18.0; INFOPLIST_FILE = FabVexMileageWidget/Info.plist; CODE_SIGN_ENTITLEMENTS = FabVexMileageWidget/FabVexMileageWidget.entitlements; TARGETED_DEVICE_FAMILY = 1;}; name = Release;};
+ }
+ rootObject = 111111111111111111111111;
+}
